@@ -1,3 +1,4 @@
+import 'package:catalog/widgets/drawer.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatelessWidget {
@@ -14,7 +15,7 @@ class Homepage extends StatelessWidget {
           child: Text("welcome to $days  of flutter by $name  "),
         ),
       ),
-      drawer: Drawer(),
+      drawer:  MyDrawer(),
     );
   }
 }
