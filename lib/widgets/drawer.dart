@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class MyDrawer extends StatelessWidget {
    @override
   Widget build(BuildContext context) {
-    final imageUrl="D:\FlutterProjects\8_hr\catalog\assets\images\loginphoto.png";
+    final imageUrl="D:\FlutterProjects\8_hr\catalog\assets\images\iphone.png";
  
 
     return Drawer(
